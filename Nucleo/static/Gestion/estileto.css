@@ -1,0 +1,92 @@
+.container20{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    height: 100vh;
+   
+    font-family: 'Nunito', sans-serif;
+    padding: 0 20px;
+  }
+  
+.card-container20{
+  display: flex;
+  width: 600px;
+  height: auto;
+  background: #ffffff;
+  font-family: 'Nunito', sans-serif;
+  border-radius: 2px;
+  box-shadow: 1px 1px 4px 2px rgba(0, 0, 0, .2);
+  }
+  
+.header20{
+  
+    border-right: 1px solid #ddd;
+  
+  }
+  
+.descripcion20{
+    background: #fbfbfb;
+  }
+  
+.header20, .descripcion20{
+    padding: 20px;
+    text-align: center;
+
+  }
+
+.header20 a{
+
+    position: relative;
+    display: block;
+  
+}
+
+.header20 img{
+    border-radius: 50%;
+    box-shadow: 0 0 0 8px rgba(0, 0, 0, .06);
+    margin: 20px 30px;
+    transition: .2s;
+    width: 150px;
+
+}
+.header20 a:hover img{
+  box-shadow: 0 0 0 12px rgba(0, 0, 0, .1);
+}
+
+.header20 h2{
+
+  color: #7a027a;
+
+}
+
+.header20 h4{
+margin-bottom: 20px;
+}
+
+.descripcion20{
+position: relative;
+}
+
+.descripcion20 p{
+
+margin: 20px 30px;
+
+}
+
+.descripcion20 .social{
+top: 25px;
+
+}
+
+.descripcion20 .social a{
+  display: inline-block;
+  padding: 15px;
+  color: #7a027a;
+}
+
+@media (max-width:641px){
+
+  .card-container20{
+    display: block;
+  }
+}
